@@ -22,3 +22,7 @@ h1 {
     position: absolute;
     opacity: .3;
 }
+
+input {
+    font-size: 5em !important;
+}
