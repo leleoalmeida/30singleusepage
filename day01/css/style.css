@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-color: #F2EBDF;
+    font-family: 'Patua One', sans-serif;
+}
+
+canvas {
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    opacity: .3;
+}
