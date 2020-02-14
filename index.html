@@ -6,24 +6,15 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Day 03 - Race against someone</title>
+    <title>Day 04 - Simple counter</title>
 </head>
 
 <body>
-    <h1>Day 03 - Race against someone</h1>
-    <div class="dropdown-stuff">
-        <label for="racer">Choose an animal or person to run against:</label>
-        <select id="racer" onchange="updateRacer()">
-            <option selected="selected">Choose...</option>
-            <option value="Cheetah">Cheetah</option>
-            <option value="Sloth">Sloth</option>
-            <option value="House cat">House cat</option>
-            <option value="Usain Bolt">Usain Bolt</option>
-          </select>
-        <button>Go!</button>
-        <p>This page has no actual use but for me to get to know canvas a bit more. Values are all weird, and even the sloth is faster than the blue dot.</p>
-        <canvas></canvas>
-
+    <h1>Day 04 - Simple counter</h1>
+    <div class="scs">
+        <h1 id="display"></h1>
+        <p>Left click + | Right click -</p>
+        <button onclick="reset()">RESET</button>
     </div>
     <script src="./js/script.js"></script>
 </body>
