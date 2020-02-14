@@ -3,12 +3,13 @@ html,
 body {
     margin: 0 !important;
     padding: 0 !important;
+    user-select: none;
     color: white;
     max-height: 100vh;
 }
 
 body {
-    background-color: #d9ff00;
+    background-color: #EE4444;
     font-family: 'Patua One', sans-serif;
 }
 
