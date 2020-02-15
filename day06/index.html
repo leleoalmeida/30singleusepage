@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Day 05 - Reflex test</title>
+    <title>Day 06 - Pomodoro timer</title>
 </head>
 
 <body>
-    <h1>Day 05 - Reflex test</h1>
+    <h1>Day 06 - Pomodoro timer</h1>
     <div class="scs">
-        <h1 id="display"></h1>
+        <h1 id="display__time-left"></h1>
+        <h2 id="display__end-time"></h2>
         <p></p>
-        <button onclick="start()">START</button>
+        <button data-time="300">BREAK</button>
+        <button data-time="1500">POMODORO</button>
         <!-- <button onclick="reflex()">REFLEX</button> -->
     </div>
     <script src="./js/script.js"></script>

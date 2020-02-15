@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: #d9ff00;
+    background-color: #8442ff;
     font-family: 'Patua One', sans-serif;
 }
 
@@ -27,7 +27,7 @@ p {
     opacity: .8;
 }
 
-#display {
-    font-size: 30vh;
+#display__time-left {
+    font-size: 10vh !important;
     opacity: 1 !important;
 }
