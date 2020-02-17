@@ -3,6 +3,7 @@
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box;
+    font-family: 'Patua One', cursive;
 }
 
 header,
@@ -11,7 +12,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Patua One', cursive;
+}
+
+body>h1 {
+    position: absolute;
+    opacity: .3;
 }
 
 header h1 {
